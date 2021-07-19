@@ -8,3 +8,4 @@ Application demo:
 https://github.com/Cragar777/UOTSCS-Assignment4-Code-Quiz/blob/main/Assets/images/04-web-apis-homework-demo.gif
 
 Application url: 
+https://cragar777.github.io/UOTSCS-Assignment4-Code-Quiz/

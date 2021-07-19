@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+
+<header>
+    <h1>Coding Quiz Challenge</h1>
+    <h2>View high scores</h2>
+    <h2>Time</h2>
+</header>
+
+<body>
+    <main class="page-content">
+        <section class="intro" id="start-page">
+            <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score-time by ten seconds!</p>
+            <button class="btn" id="start-quiz">Start Quiz</button>
+        </section>
+        <section class="answer-list-wrapper" id="question-page">
+            <ul class="answer-list">
+                <li>Question1</li>
+                <button id="btn-answer1">Answer1</button>
+                <button id="btn-answer2">Answer2</button>
+                <button id="btn-answer3">Answer3</button>
+                <button id="btn-answer4">Answer4</button>
+            </ul>
+        </section>
+        <section class="finish" id="finish-page">
+            <h2>All Done!</h2>
+            <h2>Your final score is</h2>
+            <h2>Enter Initials</h2>
+            <button class="btn" id="initials">Submit</button>
+        </section>
+        <section>
+            <h2>High Scores</h2>
+            <button class="btn" id="high-score-back">Go Back</button>
+            <button class="btn" id="clear-high-score">Clear High Scores</button>
+        </section>
+    </main>
+
+    <script src="./Assets/js/script.js"></script>
+</body>
+
+<footer>
+    &copy;2021 by CodeQuiz
+</footer>
+
+</html>
